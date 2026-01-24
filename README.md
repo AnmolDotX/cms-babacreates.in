@@ -1,9 +1,17 @@
-# Sanity Clean Content Studio
+# Studio Babacreates
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+This project uses **Sanity** to manage the content for the portfolio. It serves as both the database and the content dashboard for the application.
 
-Now you can do the following things:
+## Integration
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+- **Frontend Repository**: [GITHUB_BABACREATES.IN](https://github.com/AnmolDotX/babacreates)
+
+## Workflow
+
+Changes to the schema or studio configuration can be updated directly from the local CLI. Run the following command to deploy changes:
+
+```bash
+npx sanity deploy
+```
+
+Although changes are deployed directly to Sanity, we maintain this repository on GitHub as a backup and for version control of the schema and configuration.
