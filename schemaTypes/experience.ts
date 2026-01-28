@@ -12,6 +12,14 @@ export const experience = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'companyLogo',
+      title: 'Company Logo',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    }),
+    defineField({
       name: 'role',
       title: 'Role Designatiom',
       type: 'string',

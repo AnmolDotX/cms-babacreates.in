@@ -28,10 +28,11 @@ export const skill = defineType({
     }),
     defineField({
       name: 'icon',
-      title: 'Icon (React Icon Name or SVG)',
-      type: 'string',
-      description: 'e.g. FaReact or an SVG string',
+      title: 'Icon (SVG/Image)',
+      type: 'image',
+      description: 'Upload an SVG or PNG icon',
     }),
+
     defineField({
       name: 'proficiency',
       title: 'Proficiency (1-10)',

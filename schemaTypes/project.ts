@@ -22,6 +22,12 @@ export const project = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'isUnderConstruction',
+      title: 'Is Under Construction?',
+      type: 'boolean',
+      initialValue: false,
+    }),
+    defineField({
       name: 'projectType',
       title: 'Project Type',
       type: 'string',
