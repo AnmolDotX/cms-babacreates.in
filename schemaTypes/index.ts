@@ -4,5 +4,6 @@ import {project} from './project'
 import {agency} from './agency'
 import {profile} from './profile'
 import {workshop} from './workshop'
+import {waitlist} from './waitlist'
 
-export const schemaTypes = [ experience, skill, project, agency, profile, workshop]
+export const schemaTypes = [ experience, skill, project, agency, profile, workshop, waitlist]
