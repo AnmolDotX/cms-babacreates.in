@@ -34,11 +34,13 @@ export const project = defineType({
       options: {
         list: [
           {title: 'Professional', value: 'professional'},
-          {title: 'Proof of Work (Personal)', value: 'proof_of_work'},
+          {title: 'Proof of Work', value: 'proof_of_work'},
+          {title : "Client Work", value : "client_work"},
+          {title : "Personal", value : "personal"}
         ],
         layout: 'radio',
       },
-      initialValue: 'proof_of_work',
+      initialValue: 'personal',
     }),
     defineField({
       name: 'summary',
