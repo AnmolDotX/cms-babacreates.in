@@ -35,8 +35,9 @@ export const project = defineType({
         list: [
           {title: 'Professional', value: 'professional'},
           {title: 'Proof of Work', value: 'proof_of_work'},
-          {title : "Client Work", value : "client_work"},
-          {title : "Personal", value : "personal"}
+          {title: 'Client Work', value: 'client_work'},
+          {title: 'Personal', value: 'personal'},
+          {title: 'Product', value: 'product'},
         ],
         layout: 'radio',
       },
@@ -84,10 +85,7 @@ export const project = defineType({
       name: 'content',
       title: 'Content',
       type: 'array',
-      of: [
-        {type: 'block'}, 
-        {type: 'image'}
-      ], 
+      of: [{type: 'block'}, {type: 'image'}],
     }),
   ],
   preview: {
